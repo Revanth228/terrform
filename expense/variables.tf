@@ -51,3 +51,14 @@ variable "cidr_blocks" {
     default = ["0.0.0.0/0"]
   
 }
+
+#r53 varaibles
+variable "zone_id" {
+
+  default = "Z01827032XHGZ2ZUO1RKQ"
+}
+
+variable "domain_name" {
+    default = "daws78s-rev.online"
+  
+}
